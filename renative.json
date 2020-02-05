@@ -1,0 +1,38 @@
+{
+    "projectName": "gb-player-renative",
+    "workspaceID": "rnv",
+    "paths": {
+        "appConfigsDir": "./appConfigs",
+        "platformTemplatesDir": "$RNV_HOME/platformTemplates",
+        "entryDir": "./",
+        "platformAssetsDir": "./platformAssets",
+        "platformBuildsDir": "./platformBuilds",
+        "projectConfigDir": "./projectConfig"
+    },
+    "defaults": {
+        "title": "Giant Bomb Player Renative",
+        "id": "com.bairrd.gb-player-renative",
+        "supportedPlatforms": [
+            "android",
+            "androidtv",
+            "firefoxos",
+            "firefoxtv",
+            "ios",
+            "kaios",
+            "macos",
+            "tizen",
+            "tizenmobile",
+            "tvos",
+            "web",
+            "webos",
+            "windows"
+        ]
+    },
+    "templates": {
+        "renative-template-kitchen-sink": {
+            "version": "0.28.17"
+        }
+    },
+    "currentTemplate": "renative-template-kitchen-sink",
+    "isNew": true
+}
